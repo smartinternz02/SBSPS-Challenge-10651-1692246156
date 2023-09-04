@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaceMine Prediction Form</title>
+</head>
+
+<body>
+    <h1>PlaceMine Prediction Form</h1>
+    <form action="/input" method="post">
+        <label for="gender">Select Gender:</label>
+        <select name="gender" id="gender">
+            <option value="1">Male</option>
+            <option value="0">Female</option>
+        </select><br><br>
+
+        <label for="ssc_p">SSC percentage:</label>
+        <input type="number" step="0.01" name="ssc_p"><br><br>
+
+        <label for="ssc_b">Select SSC Board:</label>
+        <select name="ssc_b" id="ssc_b">
+            <option value="0">Central</option>
+            <option value="1">Others</option>
+        </select><br><br>
+
+        <label for="hsc_p">HSC percentage:</label>
+        <input type="number" step="0.01" name="hsc_p"><br><br>
+
+        <label for="hsc_s">HSC Stream:</label>
+        <select name="hsc_s" id="hsc_s">
+            <option value="1">Commerce</option>
+            <option value="2">Science</option>
+            <option value="0">Arts</option>
+        </select><br><br>
+
+        <label for="degree_p">Degree Percentage:</label>
+        <input type="number" step="0.01" name="degree_p"><br><br>
+
+        <label for="degree_t">Select Degree Type:</label>
+        <select name="degree_t" id="degree_t">
+            <option value="0">Comm&Mgmt</option>
+            <option value="2">Sci&Tech</option>
+            <option value="1">Other</option>
+        </select><br><br>
+
+        <label for="workex">Select Work Experience:</label>
+        <select name="workex" id="workex">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select><br><br>
+
+        <label for="etest_p">Entrance Test Percentage:</label>
+        <input type="number" step="0.01" name="etest_p"><br><br>
+
+        <label for="specialization">Specialization:</label>
+        <select name="specialization" id="specialization">
+            <option value="1">Mkt&HR</option>
+            <option value="0">Mkt&Fin</option>
+        </select><br><br>
+
+        <label for="mba_p">MBA Percentage:</label>
+        <input type="number" step="0.01" name="mba_p"><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <div id="output">
+        {% if Output %}
+        <h2>Result: {{ Output }}</h2>
+        {% endif %}
+    </div>
+</body>
+
+</html>

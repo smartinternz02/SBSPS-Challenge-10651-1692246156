@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>PlaceMine</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+    <!-- Favicons -->
+    <link href="{{url_for('static',filename='assets/img/favicon.png')}}" rel="icon">
+    <link href="{{url_for('static',filename='assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="{{url_for('static',filename='assets/vendor/aos/aos.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="{{url_for('static',filename='assets/css/style.css')}}" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Gp
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center justify-content-lg-between">
+
+            <h1 class="logo me-auto me-lg-0"><a href="/">Rising Phoenix<span></span></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#prediction">Prediction</a></li>
+                    <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
+                    <li><a class="nav-link scrollto " href="#portfolio">About Project</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li> -->
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+            <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center justify-content-center">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+                <div class="col-xl-6 col-lg-8">
+                    <h1>Placemine<span></span></h1>
+                    <h2>Placement Prediction App<span></span></h2>
+                    <h2> Empowering Futures and Unlocking Potential, Your Onestop Path to Success with Placemine's Placement Prediction App</h2>
+                </div>
+            </div>
+
+            <!-- <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+                <div class="col-xl-2 col-md-4">
+                    <div class="icon-box">
+                        <i class="ri-store-line"></i>
+                        <h3><a href="">Lorem Ipsum</a></h3>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4">
+                    <div class="icon-box">
+                        <i class="ri-bar-chart-box-line"></i>
+                        <h3><a href="">Dolor Sitema</a></h3>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4">
+                    <div class="icon-box">
+                        <i class="ri-calendar-todo-line"></i>
+                        <h3><a href="">Sedare Perspiciatis</a></h3>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4">
+                    <div class="icon-box">
+                        <i class="ri-paint-brush-line"></i>
+                        <h3><a href="">Magni Dolores</a></h3>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4">
+                    <div class="icon-box">
+                        <i class="ri-database-2-line"></i>
+                        <h3><a href="">Nemos Enimade</a></h3>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <!-- <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                        <img src="assets/img/about.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                        <p class="fst-italic">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <ul>
+                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                        </ul>
+                        <p>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section> -->
+        <section id="prediction">
+            <br>
+            <h2 align="center">Discover Your Destiny</h2>
+            <br><br>
+            <form action="/input" method="post">
+                <div style="display: flex; justify-content: space-around;" class="mx-5">
+                    <div>
+
+
+                        <label class="form-label" for="gender">Select Gender</label>
+                        <select class="form-select" name="gender" id="gender">
+                      <option value="" disabled selected>Select</option>
+                      <option value="1">Male</option>
+                      <option value="0">Female</option>
+                    </select><br>
+                        <br>
+                        <label class="form-label" for="ssc_p">SSC percentage</label>
+                        <input class="form-control" type="number" name="ssc_p" step="0.01"><br>
+
+                        <label class="form-label" for="hsc_p">HSC percentage</label>
+                        <input class="form-control" type="number" name="hsc_p" step="0.01"><br>
+
+                        <label class="form-label" for="hsc_s">HSC Stream</label>
+                        <select class="form-select" name="hsc_s" id="hsc_s">
+                          <option value="" disabled selected>Select</option>
+                          <option value="1">Commerce</option>
+                           <option value="2">Science</option>
+                           <option value="0">Arts</option>
+                    </select><br>
+
+
+
+                        <label class="form-label" for="degree_p">Degree Percentage</label>
+                        <input class="form-control" type="number" name="degree_p" step="0.01"><br>
+                    </div>
+                    <div>
+                        <label class="form-label" for="degree_t">Select Degree Type</label>
+                        <select class="form-select" name="degree_t" id="degree_t">
+                      <option value="" disabled selected>Select</option>
+                      <option value="0">Comm&Mgmt</option>
+                      <option value="2">Sci&Tech</option>
+                      <option value="1">Other</option>
+                    </select><br>
+                        <label class="form-label" for="ssc_b">Select SSC Board</label>
+                        <select class="form-select" name="ssc_b" id="ssc_b">
+                      <option value="" disabled selected>Select</option>
+                      <option value="0">Central</option>
+                      <option value="1">Others</option>
+                    </select><br>
+                        <label class="form-label" for="workex">Select Work Experience</label>
+                        <select class="form-select" name="workex" id="workex">
+                      <option value="" disabled selected>Select</option>
+                      <option value="1">Yes</option>
+                      <option value="0">No</option>
+                    </select><br>
+                        <label class="form-label" for="etest_p">Entrance Test Percentage</label>
+                        <input class="form-control" id="etest_p" type="number" name="etest_p" step="0.01"><br>
+                        <label for="specialization">Specialization</label>
+                        <select class="form-select" name="specialization" id="specialization">
+                      <option value="" disabled selected>Select</option>
+                      <option value="1">Mkt&HR</option>
+                      <option value="0">Mkt&Fin</option>
+                    </select><br>
+                        <label class="form-label" for="mba_p">MBA Percentage</label>
+                        <input class="form-control" id="mba_p" name="mba_p" type="number" step="0.01"><br>
+                    </div>
+                </div>
+                <div align="center">
+                    <input type="submit" class="btn btn-primary">
+                </div>
+                <br><br>
+
+
+            </form>
+
+
+
+            <br><br>
+            <div align="center" id="output">
+                <h2>Result: {{Output}}</h2>
+            </div>
+        </section>
+
+        <section id="cta" class="cta">
+            <div class="container" data-aos="zoom-in">
+
+                <div class="text-center">
+                    <h3>Your journey doesn't end here. Both success and growth come from facing challenges. Embrace this moment, and let it drive you to achieve even more.</h3>
+                    <!-- <a class="cta-btn" href="#">Call To Action</a> -->
+                </div>
+
+            </div>
+        </section>
+        <!-- End Cta Section -->
+
+
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                    <p>About Project</p>
+                </div>
+
+                <section id="counts" class="counts">
+                    <div class="container" data-aos="fade-up">
+
+                        <div class="row no-gutters">
+                            <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
+                            <div class="col-xl-7 ps-4 ps-lg-5 pe-4 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+                                <div class="content d-flex flex-column justify-content-center">
+                                    <h3>Performance Metrics for Placemines Predictions</h3>
+                                    <p>
+                                        Exploring Accuracy Measures in Placemines Predictions and Understanding Precision, Recall, Accuracy, and F1 Score for Successful Placements
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-md-6 d-md-flex align-items-md-stretch">
+                                            <div class="count-box">
+                                                <i class="bi bi-emoji-smile"></i>
+                                                <span data-purecounter-start="0" data-purecounter-end="95.35" data-purecounter-duration="2" class="purecounter"></span>
+                                                <p><strong>Accuracy-</strong> Experience Placemines' dependable insights that guide students towards optimal career journeys.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 d-md-flex align-items-md-stretch">
+                                            <div class="count-box">
+                                                <i class="bi bi-journal-richtext"></i>
+                                                <span data-purecounter-start="0" data-purecounter-end="97" data-purecounter-duration="2" class="purecounter"></span>
+                                                <p><strong>F1 Score-</strong>Understand Placemines' harmonious blend of precision and recall, shaping its effectiveness in predicting placements. </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 d-md-flex align-items-md-stretch">
+                                            <div class="count-box">
+                                                <i class="bi bi-clock"></i>
+                                                <span data-purecounter-start="0" data-purecounter-end="94" data-purecounter-duration="4" class="purecounter"></span>
+                                                <p><strong>Precision-</strong> Unveil Placemines' ability to precisely identify students on the path to successful placements.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 d-md-flex align-items-md-stretch">
+                                            <div class="count-box">
+                                                <i class="bi bi-award"></i>
+                                                <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="4" class="purecounter"></span>
+                                                <p><strong>Recall-</strong> Explore how Placemines ensures no potential success stories are overlooked, enhancing placement outcomes.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End .content-->
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="{{url_for('static',filename='assets/img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Visualization of the feature importance scores</h4>
+
+                                <div class="portfolio-links">
+                                    <a href="{{url_for('static',filename='assets/img/portfolio/portfolio-1.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                                    <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="{{url_for('static',filename='assets/img/portfolio/portfolio-2.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Training and Validation accuracy over iterations (estimators) of AdaBoost model</h4>
+                                <p>Web</p>
+                                <div class="portfolio-links">
+                                    <a href="{{url_for('static',filename='assets/img/portfolio/portfolio-2.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                                    <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="{{url_for('static',filename='assets/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Validation Curve</h4>
+
+                                <div class="portfolio-links">
+                                    <a href="{{url_for('static',filename='assets/img/portfolio/portfolio-3.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                                    <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="{{url_for('static',filename='assets/img/portfolio/portfolio-4.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Corelation Matrix for all the Numeric columns.</h4>
+
+                                <div class="portfolio-links">
+                                    <a href="{{url_for('static',filename='assets/img/portfolio/portfolio-4.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                                    <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="{{url_for('static',filename='assets/img/portfolio/portfolio-5.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Box Plot of Salary</h4>
+
+                                <div class="portfolio-links">
+                                    <a href="{{url_for('static',filename='assets/img/portfolio/portfolio-5.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                                    <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="{{url_for('static',filename='assets/img/portfolio/portfolio-6.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Snaps of Code</h4>
+
+                                <div class="portfolio-links">
+                                    <a href="{{url_for('static',filename='assets/img/portfolio/portfolio-6.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                                    <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="{{url_for('static',filename='assets/img/portfolio/portfolio-7.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Performance of AdaBoost over iterations</h4>
+
+                                <div class="portfolio-links">
+                                    <a href="{{url_for('static',filename='assets/img/portfolio/portfolio-7.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                                    <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="{{url_for('static',filename='assets/img/portfolio/portfolio-8.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4> Graphical representation of relation between each Categorical columns and "Status" column.</h4>
+
+                                <div class="portfolio-links">
+                                    <a href="{{url_for('static',filename='assets/img/portfolio/portfolio-8.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                                    <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="{{url_for('static',filename='assets/img/portfolio/portfolio-9.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Precision-Recall relationship</h4>
+
+                                <div class="portfolio-links">
+                                    <a href="{{url_for('static',filename='assets/img/portfolio/portfolio-9.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                                    <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
+
+
+
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="testimonials">
+            <div class="container" data-aos="zoom-in">
+
+                <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+
+
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Testimonials Section -->
+
+        <!-- ======= Team Section ======= -->
+        <section id="team" class="team">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Team</h2>
+                    <p>Check our Team</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up" data-aos-delay="100">
+                            <div class="member-img">
+                                <img src="{{url_for('static',filename='assets/img/team/team-1.jpeg')}}" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Ashrith Sindhunoori</h4>
+                                <span>Student</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up" data-aos-delay="200">
+                            <div class="member-img">
+                                <img src="{{url_for('static',filename='assets/img/team/team-2.jpeg')}}" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Agrima Goel</h4>
+                                <span>Student</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Team Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Contact</h2>
+                    <p>Contact Us</p>
+                </div>
+
+
+
+                <div class="row mt-5">
+
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>Manipal University Jaipur, Jaipur, Rajasthan, India ,303007</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>ashrithsindhunoori@gmail.com</p>
+                                <p>agrimagoel10@gmail.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+91 8179013334, +91 7455993022</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+    </main>
+    <!-- End #main -->
+
+
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="{{url_for('static',filename='assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
+    <script src="{{url_for('static',filename='assets/vendor/aos/aos.js')}}"></script>
+    <script src="{{url_for('static',filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{url_for('static',filename='assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+    <script src="{{url_for('static',filename='assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+    <script src="{{url_for('static',filename='assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+    <script src="{{url_for('static',filename='assets/vendor/php-email-form/validate.js')}}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{{url_for('static',filename='assets/js/main.js')}}"></script>
+
+
+</body>
+
+</html>
